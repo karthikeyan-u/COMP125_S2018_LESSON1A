@@ -2,8 +2,9 @@
 
 //IIFE - Immediatly invoked Functions
 (function(){
+    var title = document.title;
     function Start(){
-        console.log('App Started');
+        console.log('Title : '+ title);
     }
     window.onload=Start;
 })();
